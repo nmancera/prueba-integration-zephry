@@ -13,10 +13,10 @@ properties([
 ])
 
 
-node {
-    try {
+node(){
+    try{
         echo 'Iniciando'
-		checkout()
+	checkout()
         zephyr()
 
     }
