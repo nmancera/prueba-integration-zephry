@@ -1,9 +1,9 @@
 #!/usr/bin/env groovy
 
-def params = [
-    repository          : 'https://github.com/nmancera/prueba-integration-zephry.git',
-    credentials         : 'github'
-]
+// def params = [
+    // repository          : 'https://github.com/nmancera/prueba-integration-zephry.git',
+    // credentials         : 'github'
+// ]
 
 properties([
     pipelineTriggers([
@@ -16,8 +16,8 @@ properties([
 node(){
     try{
         echo 'Iniciando'
-	checkout()
-        zephyr()
+	// checkout()
+        // zephyr()
 
     }
 }
